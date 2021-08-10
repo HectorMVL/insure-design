@@ -1,0 +1,35 @@
+
+/*      GENERALES    */
+
+*,*::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+    line-height: 1.5;
+    letter-spacing: 1px
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: hsl(240, 75%, 98%);
+    font-family: 'Karla', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+.imagen-100 img{
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*      CONTENIDO    */
